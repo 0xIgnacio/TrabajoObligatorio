@@ -3,10 +3,9 @@
 
 #include "Boolean.h"
 
-typedef struct
-{
-    int horas;
-    int minutos;
+typedef struct {
+  int horas;
+  int minutos;
 }hora;
 
 //Carga

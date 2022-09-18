@@ -3,15 +3,15 @@
 
 void cargaHora(hora &h) {
     printf("\n(HORA MINUTOS): ");
-    scanf("%d %d", &h.horas, &h.minutos);
+      scanf("%d %d", &h.horas, &h.minutos);
 }
 
 int darHora(hora h) {
-    return h.horas;
+  return h.horas;
 }
 
 int darMinutos(hora h) {
-    return h.minutos;
+  return h.minutos;
 }
 
 void mostrarHoraIngreso(hora h) {

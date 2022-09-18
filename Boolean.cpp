@@ -8,7 +8,7 @@ void cargar(boolean &b) {
     if (valor == 0)
       b = FALSE;
     else
-    b = TRUE;
+      b = TRUE;
 }
 
 void mostrar(boolean b) {

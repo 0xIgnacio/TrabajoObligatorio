@@ -8,15 +8,15 @@
 #include "Hora.h"
 
 typedef struct {
-    string matricula; // String, Arreglo o QUE TIPO DE DATO????
-    dptoMatricula dpto; // Se hace typedef de esto? Ya que son 19 departamentos
-    long int cedulaConductor;
-    hora horaIngreso;
-    clasificacion discriminante;
-    union {
-        autos datosAuto;
-        camioneta datosCamioneta;
-    }datos;
+  string matricula;
+  dptoMatri dpto;
+  long int cedulaConductor;
+  hora horaIngreso;
+  clasificacion discriminante;
+  union {
+    Autos datosAuto;
+    Camioneta datosCamioneta;
+  }datos;
 }vehiculo;
 
 //Carga

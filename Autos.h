@@ -3,20 +3,19 @@
 
 #include "String.h"
 
-typedef struct
-{
-    string marca;
-    int anioFabri;
-}autos;
+typedef struct {
+  string marca;
+  int anioFabri;
+}Autos;
 
 //Carga
-void cargaAuto(autos &a);
+void cargaAuto(Autos &a);
 
 //Selectoras
-void darMarca(autos a, string &str);
-int darAnioFabri(autos a);
+void darMarca(Autos a, string &str);
+int darAnioFabri(Autos a);
 
 //Desplegado
-void mostrarAuto(autos a);
+void mostrarAuto(Autos a);
 
 #endif // AUTOS_H_INCLUDED

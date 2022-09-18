@@ -5,11 +5,18 @@
 
 const int TAM = 50;
 typedef struct {
-    Vehiculo arre[TAM];
+    vehiculo arre[TAM];
     int tope;
 }totalVehiculos;
 
+boolean hayLugar(totalVehiculos arre);
+boolean existeSegunMatricula(totalVehiculos arre, string str);
 void insertarVehiculo(totalVehiculos &arr);
-void quitarVehiculo();
+int cantDpto(totalVehiculos arr, dptoMatri d);
+void cantSegunTipo(totalVehiculos arr, clasificacion c);
+void listarVehiculos(totalVehiculos arre);
+void mostrarSegunMatricula(totalVehiculos arr, string str);
+void ingresadosXHora(totalVehiculos arr,int h);
+void camionetaSegunCapCarga(totalVehiculos arr, int a);
 
 #endif // TOTALVEHICULOS_H_INCLUDED

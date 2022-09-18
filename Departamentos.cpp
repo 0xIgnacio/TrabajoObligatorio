@@ -1,140 +1,159 @@
 #include <stdio.h>
 #include "Departamentos.h"
 
-void cargaDpto(dptoMatri d)
-{
-    boolean correcto=FALSE
+void cargaDpto(dptoMatri &d) {
+  boolean correcto=FALSE;
     printf("Ingrese en que departamento esta matriculado el vehiculo:");
     printf("\n1-Artigas\n2-Canelones\n3-Cerro Largo\n4-Colonia\n5-Durazno\n6-Flores\n7-Florida");
     printf("\n8-Lavalleja\n9-Maldonado\n10-Montevideo\n11-Paysandu\n12-Rio Negro\n13-Rivera");
     printf("\n14-Rocha\n15-Salto\n16-San Jose\n17-Soriano\n18-Tacuarembo\n19-Treinta y Tres");
-    do{
-    int num=0;
-    scanf("%d",&num);
+    do {
+      int num=0;
+        scanf("%d",&num);
         switch(num) {
-            case 1:
-                dptoMatri=ARTI;
-                correcto=TRUE;
-            break;
-        case 2:
-            dptoMatri=CANE;
+          case 1:
+            d=ARTI;
             correcto=TRUE;
             break;
-        case 3:
-            dptoMatri=CERRO;
+          case 2:
+            d=CANE;
             correcto=TRUE;
             break;
-        case 4:
-            dptoMatri=COL;
+          case 3:
+            d=CERRO;
             correcto=TRUE;
             break;
-        case 5:
-            dptoMatri=DUR;
+          case 4:
+            d=COL;
             correcto=TRUE;
             break;
-        case 6:
-            dptoMatri=FLORES;
+          case 5:
+            d=DUR;
             correcto=TRUE;
             break;
-        case 7:
-            dptoMatri=FLOR;
+          case 6:
+            d=FLORES;
             correcto=TRUE;
             break;
-        case 8:
-            dptoMatri=LAVA;
+          case 7:
+            d=FLOR;
             correcto=TRUE;
             break;
-        case 9:
-            dptoMatri=MALDO;
+          case 8:
+            d=LAVA;
             correcto=TRUE;
             break;
-        case 10:
-            dptoMatri=MONTE;
+          case 9:
+            d=MALDO;
             correcto=TRUE;
             break;
-        case 11:
-            dptoMatri=PAYSA;
+          case 10:
+            d=MONTE;
             correcto=TRUE;
             break;
-        case 12:
-            dptoMatri=RION;
+          case 11:
+            d=PAYSA;
             correcto=TRUE;
             break;
-        case 13:
-            dptoMatri=RIVE;
+          case 12:
+            d=RION;
             correcto=TRUE;
             break;
-        case 14:
-            dptoMatri=ROCHA;
+          case 13:
+            d=RIVE;
             correcto=TRUE;
             break;
-        case 15:
-            dptoMatri=SALTO;
+          case 14:
+            d=ROCHA;
             correcto=TRUE;
             break;
-        case 16:
-            dptoMatri=SJ;
+          case 15:
+            d=SALTO;
             correcto=TRUE;
             break;
-        case 17:
-            dptoMatri=SORIA;
+          case 16:
+            d=SJ;
             correcto=TRUE;
             break;
-        case 18:
-            dptoMatri=TACUA;
+          case 17:
+            d=SORIA;
             correcto=TRUE;
             break;
-        case 19:
-            dptoMatri=TRYTR;
+          case 18:
+            d=TACUA;
             correcto=TRUE;
             break;
-        default:
+          case 19:
+            d=TRYTR;
+            correcto=TRUE;
+            break;
+          default:
             printf("El numero debe ser entre 1 y 19, ingrese devuelta el numero: ");
         }
-    }while(correcto==FALSE);
+    } while(correcto==FALSE);
 }
 
 void mostrarDpto(dptoMatri d) {
-        switch(d) {
-            case ARTI:
-                printf("El departamento es Artigas");
-            case CANE:
-                printf("El departamento es Canelones");
-            case CERRO:
-                printf("El departamento es Cerro Largo");
-            case COL:
-                printf("El departamento es Colonia");
-            case DUR:
-                printf("El departamento es Durazno");
-            case FLORES:
-                printf("El departamento es Flores");
-            case FLOR:
-                printf("El departamento es Florida");
-            case LAVA:
-                printf("El departamento es Lavalleja");
-            case MALDO:
-                printf("El departamento es Maldonado");
-            case MONTE:
-                printf("El departamento es Montevideo");
-            case PAYSA:
-                printf("El departamento es Paysandu");
-            case RION:
-                printf("El departamento es Rio Negro");
-            case RIVE:
-                printf("El departamento es Rivera");
-            case ROCHA:
-                printf("El departamento es Rocha");
-            case SALTO:
-                printf("El departamento es Salto");
-            case SJ:
-                printf("El departamento es San Jose");
-            case SORIA:
-                printf("El departamento es Soriano");
-            case TACUA:
-                printf("El departamento es Tacuarembo");
-            case TRYTR:
-                printf("El departamento es Treinta y Tres");
-            default:
-                printf("Error");
-        }
+    switch(d) {
+      case ARTI:
+        printf("El departamento es Artigas");
+        break;
+      case CANE:
+        printf("El departamento es Canelones");
+        break;
+      case CERRO:
+        printf("El departamento es Cerro Largo");
+        break;
+      case COL:
+        printf("El departamento es Colonia");
+        break;
+      case DUR:
+        printf("El departamento es Durazno");
+        break;
+      case FLORES:
+        printf("El departamento es Flores");
+        break;
+      case FLOR:
+        printf("El departamento es Florida");
+        break;
+      case LAVA:
+        printf("El departamento es Lavalleja");
+        break;
+      case MALDO:
+        printf("El departamento es Maldonado");
+        break;
+      case MONTE:
+        printf("El departamento es Montevideo");
+        break;
+      case PAYSA:
+        printf("El departamento es Paysandu");
+        break;
+      case RION:
+        printf("El departamento es Rio Negro");
+        break;
+      case RIVE:
+        printf("El departamento es Rivera");
+        break;
+      case ROCHA:
+        printf("El departamento es Rocha");
+        break;
+      case SALTO:
+        printf("El departamento es Salto");
+        break;
+      case SJ:
+        printf("El departamento es San Jose");
+        break;
+      case SORIA:
+        printf("El departamento es Soriano");
+        break;
+      case TACUA:
+        printf("El departamento es Tacuarembo");
+        break;
+      case TRYTR:
+        printf("El departamento es Treinta y Tres");
+        break;
+      default:
+        printf("Error");
+        break;
+    }
 }

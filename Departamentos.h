@@ -10,7 +10,7 @@ MALDO, MONTE, PAYSA, RION, RIVE,
 ROCHA, SALTO, SJ, SORIA, TACUA, TRYTR
 }dptoMatri;
 
-void cargaDpto(dptoMatri d);
+void cargaDpto(dptoMatri &d);
 void mostrarDpto(dptoMatri d);
 
 

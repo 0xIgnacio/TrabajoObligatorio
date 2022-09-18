@@ -1,33 +1,34 @@
 # depslib dependency file v1.0
-1663371112 source:c:\users\eloy\desktop\trabajoobligatorio\autos.cpp
+1663443717 source:c:\users\eloy\desktop\trabajoobligatorio\autos.cpp
 	<stdio.h>
 	"Autos.h"
 
-1663364457 source:c:\users\eloy\desktop\trabajoobligatorio\boolean.cpp
+1663386409 source:c:\users\eloy\desktop\trabajoobligatorio\boolean.cpp
 	<stdio.h>
 	"boolean.h"
 
-1663371112 source:c:\users\eloy\desktop\trabajoobligatorio\camionetas.cpp
+1663443739 source:c:\users\eloy\desktop\trabajoobligatorio\camionetas.cpp
 	<stdio.h>
 	"Camionetas.h"
 
-1663371740 source:c:\users\eloy\desktop\trabajoobligatorio\clasificacion.cpp
+1663443933 source:c:\users\eloy\desktop\trabajoobligatorio\clasificacion.cpp
 	<stdio.h>
 	"Clasificacion.h"
 
-1663278150 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
+1663375512 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
 	<stdio.h>
+	"Menu.h"
 
-1663371112 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
+1663386409 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
 	<stdio.h>
 	"Hora.h"
 
-1663370971 c:\users\eloy\desktop\trabajoobligatorio\hora.h
+1663386409 c:\users\eloy\desktop\trabajoobligatorio\hora.h
 	"Boolean.h"
 
 1663364860 c:\users\eloy\desktop\trabajoobligatorio\boolean.h
 
-1663371112 source:c:\users\eloy\desktop\trabajoobligatorio\menu.cpp
+1663459853 source:c:\users\eloy\desktop\trabajoobligatorio\menu.cpp
 	<stdio.h>
 	"Menu.h"
 
@@ -38,17 +39,45 @@
 1663364860 c:\users\eloy\desktop\trabajoobligatorio\string.h
 	"Boolean.h"
 
-1663364146 source:c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.cpp
+1663459853 source:c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.cpp
+	<stdio.h>
+	"TotalVehiculos.h"
 
-1663364592 source:c:\users\eloy\desktop\trabajoobligatorio\departamentos.cpp
+1663443611 source:c:\users\eloy\desktop\trabajoobligatorio\departamentos.cpp
+	<stdio.h>
+	"Departamentos.h"
 
-1663370971 c:\users\eloy\desktop\trabajoobligatorio\autos.h
+1663443717 c:\users\eloy\desktop\trabajoobligatorio\autos.h
 	"String.h"
 
-1663370971 c:\users\eloy\desktop\trabajoobligatorio\camionetas.h
+1663443739 c:\users\eloy\desktop\trabajoobligatorio\camionetas.h
 	"String.h"
 
-1663285058 c:\users\eloy\desktop\trabajoobligatorio\menu.h
+1663459853 c:\users\eloy\desktop\trabajoobligatorio\menu.h
 
 1663371740 c:\users\eloy\desktop\trabajoobligatorio\clasificacion.h
+
+1663443611 c:\users\eloy\desktop\trabajoobligatorio\departamentos.h
+	"String.h"
+
+1663443418 source:c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.cpp
+	<stdio.h>
+	"Estacionamiento.h"
+
+1663443419 c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.h
+	"TotalVehiculos.h"
+
+1663443785 c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.h
+	"Vehiculo.h"
+
+1663443772 c:\users\eloy\desktop\trabajoobligatorio\vehiculo.h
+	"Departamentos.h"
+	"Clasificacion.h"
+	"Autos.h"
+	"Camionetas.h"
+	"Hora.h"
+
+1663443820 source:c:\users\eloy\desktop\trabajoobligatorio\vehiculo.cpp
+	<stdio.h>
+	"Vehiculo.h"
 
