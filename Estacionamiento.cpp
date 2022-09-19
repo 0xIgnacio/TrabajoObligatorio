@@ -31,19 +31,19 @@ void quitarVehiculo(estacionamiento &est,string str) {
   int i=0;
   boolean hay=FALSE;
     do {
-        if(streq(est.arr.arre[i].matricula,str))
+        if(streq(est.arre.arre[i].matricula,str))
           hay=TRUE;
         i++;
     } while(!hay);
     if(hay==TRUE) {
       hora horaSal;
         printf("Ingrese hora de salida");
-        cargaHora(hora);
+        cargaHora(horaSal);
         est.totalRecaudado+=cobro(est.arre.arre[i],horaSal);
-        for(i;i<arr.tope;i++) {
-          est.arr.arre[i]=est.arr.arre[i+1];
+        for(i;i<est.arre.tope;i++) {
+          est.arre.arre[i]=est.arre.arre[i+1];
         }
-      est.arr.tope--;
+      est.arre.tope--;
 
     }
     else

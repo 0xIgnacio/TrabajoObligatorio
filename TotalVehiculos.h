@@ -13,7 +13,7 @@ boolean hayLugar(totalVehiculos arre);
 boolean existeSegunMatricula(totalVehiculos arre, string str);
 void insertarVehiculo(totalVehiculos &arr);
 int cantDpto(totalVehiculos arr, dptoMatri d);
-void cantSegunTipo(totalVehiculos arr, clasificacion c);
+void cantSegunTipo(totalVehiculos arr);
 void listarVehiculos(totalVehiculos arre);
 void mostrarSegunMatricula(totalVehiculos arr, string str);
 void ingresadosXHora(totalVehiculos arr,int h);

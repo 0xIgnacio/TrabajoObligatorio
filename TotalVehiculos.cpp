@@ -43,7 +43,7 @@ int cantDpto(totalVehiculos arr, dptoMatri d) {
   return cantVeces;
 }
 
-void cantSegunTipo(totalVehiculos arr, clasificacion c) {
+void cantSegunTipo(totalVehiculos arr) {
   int cantAutos=0, cantCamionetas=0;
     for(int i=0;i<arr.tope;i++) {
         if(arr.arre[i].discriminante==autos) {
@@ -52,7 +52,7 @@ void cantSegunTipo(totalVehiculos arr, clasificacion c) {
         else
           cantCamionetas++;
     }
-    printf("Hay %d autos y %d camionetas.",cantAutos,cantCamionetas);
+    printf("Hay %d autos y %d camionetas",cantAutos,cantCamionetas);
 }
 
 void listarVehiculos(totalVehiculos arr) {

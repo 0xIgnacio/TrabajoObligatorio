@@ -4,12 +4,12 @@
 //----------------------CARGA----------------------
 void cargaVehiculo(vehiculo &v)
 {
-    printf("Ingrese la matricula del Vehiculo: ");
+    printf("\nIngrese la matricula del Vehiculo: ");
     scan(v.matricula);
     cargaDpto(v.dpto);
-    printf("Ingrese la Cedula del Conductor: ");
+    printf("\nIngrese la Cedula del Conductor: ");
     scanf("%ld",&v.cedulaConductor);
-    printf("Ingrese hora de Ingreso: ");
+    printf("\nIngrese hora de Ingreso: ");
     cargaHora(v.horaIngreso);
     cargarClas(v.discriminante);
     if(v.discriminante==autos){

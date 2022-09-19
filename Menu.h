@@ -3,6 +3,5 @@
 
 void desplegarMenu();
 void desplegarMenuOp3();
-void analizarMenu();
 
 #endif // MENU_H_INCLUDED

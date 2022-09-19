@@ -4,7 +4,7 @@
 void cargarClas(clasificacion &a)
 {
   int num;
-    printf("Ingrese 1-Si es un Auto \n2-Si es una Camioneta");
+    printf("\n1-Si es un Auto \n2-Si es una Camioneta\nIngrese: ");
       scanf("%d",&num);
     switch(num) {
       case 1:
@@ -14,7 +14,7 @@ void cargarClas(clasificacion &a)
         a=camioneta;
         break;
       default:
-        printf("Error");
+          printf("Error");
         break;
     }
 }
@@ -22,13 +22,13 @@ void cargarClas(clasificacion &a)
 void mostrarClas(clasificacion a) {
     switch(a) {
       case autos:
-        printf("El vehiculo es un auto");
+          printf("El vehiculo es un auto");
         break;
       case camioneta:
-        printf("El vehiculo es una camioneta");
+          printf("El vehiculo es una camioneta");
         break;
       default:
-        printf("Error");
+          printf("Error");
         break;
     }
 }

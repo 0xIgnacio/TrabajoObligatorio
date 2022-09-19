@@ -3,10 +3,10 @@
 
 void cargaDpto(dptoMatri &d) {
   boolean correcto=FALSE;
-    printf("Ingrese en que departamento esta matriculado el vehiculo:");
+    printf("\nIngrese en que departamento esta matriculado el vehiculo:");
     printf("\n1-Artigas\n2-Canelones\n3-Cerro Largo\n4-Colonia\n5-Durazno\n6-Flores\n7-Florida");
     printf("\n8-Lavalleja\n9-Maldonado\n10-Montevideo\n11-Paysandu\n12-Rio Negro\n13-Rivera");
-    printf("\n14-Rocha\n15-Salto\n16-San Jose\n17-Soriano\n18-Tacuarembo\n19-Treinta y Tres");
+    printf("\n14-Rocha\n15-Salto\n16-San Jose\n17-Soriano\n18-Tacuarembo\n19-Treinta y Tres\n\nIngrese: ");
     do {
       int num=0;
         scanf("%d",&num);
