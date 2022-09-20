@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1663443717 source:c:\users\eloy\desktop\trabajoobligatorio\autos.cpp
+1663640535 source:c:\users\eloy\desktop\trabajoobligatorio\autos.cpp
 	<stdio.h>
 	"Autos.h"
 
@@ -7,15 +7,15 @@
 	<stdio.h>
 	"boolean.h"
 
-1663443739 source:c:\users\eloy\desktop\trabajoobligatorio\camionetas.cpp
+1663640535 source:c:\users\eloy\desktop\trabajoobligatorio\camionetas.cpp
 	<stdio.h>
 	"Camionetas.h"
 
-1663547254 source:c:\users\eloy\desktop\trabajoobligatorio\clasificacion.cpp
+1663639826 source:c:\users\eloy\desktop\trabajoobligatorio\clasificacion.cpp
 	<stdio.h>
 	"Clasificacion.h"
 
-1663547579 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
+1663640535 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
 	<stdio.h>
 	"Menu.h"
 	"Estacionamiento.h"
@@ -29,7 +29,7 @@
 
 1663364860 c:\users\eloy\desktop\trabajoobligatorio\boolean.h
 
-1663540469 source:c:\users\eloy\desktop\trabajoobligatorio\menu.cpp
+1663640535 source:c:\users\eloy\desktop\trabajoobligatorio\menu.cpp
 	<stdio.h>
 	"Menu.h"
 
@@ -40,11 +40,11 @@
 1663364860 c:\users\eloy\desktop\trabajoobligatorio\string.h
 	"Boolean.h"
 
-1663546594 source:c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.cpp
+1663640540 source:c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.cpp
 	<stdio.h>
 	"TotalVehiculos.h"
 
-1663547254 source:c:\users\eloy\desktop\trabajoobligatorio\departamentos.cpp
+1663639826 source:c:\users\eloy\desktop\trabajoobligatorio\departamentos.cpp
 	<stdio.h>
 	"Departamentos.h"
 
@@ -61,7 +61,7 @@
 1663443611 c:\users\eloy\desktop\trabajoobligatorio\departamentos.h
 	"String.h"
 
-1663540780 source:c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.cpp
+1663638906 source:c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.cpp
 	<stdio.h>
 	"Estacionamiento.h"
 
@@ -78,7 +78,7 @@
 	"Camionetas.h"
 	"Hora.h"
 
-1663547254 source:c:\users\eloy\desktop\trabajoobligatorio\vehiculo.cpp
+1663639826 source:c:\users\eloy\desktop\trabajoobligatorio\vehiculo.cpp
 	<stdio.h>
 	"Vehiculo.h"
 

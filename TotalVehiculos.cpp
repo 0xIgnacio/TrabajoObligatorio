@@ -52,18 +52,18 @@ void cantSegunTipo(totalVehiculos arr) {
         else
           cantCamionetas++;
     }
-    printf("Hay %d autos y %d camionetas",cantAutos,cantCamionetas);
+    printf("\nHay %d autos y %d camionetas\n",cantAutos,cantCamionetas);
 }
 
 void listarVehiculos(totalVehiculos arr) {
     for(int i=0;i<arr.tope;i++) {
-        printf("Matricula: ");
+        printf("\nMatricula: ");
         print(arr.arre[i].matricula);
         printf(" Cedula: %ld",arr.arre[i].cedulaConductor);
         printf(" Hora ingreso: ");
         mostrarHoraIngreso(arr.arre[i].horaIngreso);
-        printf("\n");
     }
+    printf("\n");
 }
 
 void mostrarSegunMatricula(totalVehiculos arr, string str) {
@@ -85,21 +85,44 @@ void mostrarSegunMatricula(totalVehiculos arr, string str) {
 
 void ingresadosXHora(totalVehiculos arr,int h) {
   int cantVehiculos=0;
+    printf("\n");
     for(int i=0;i<arr.tope;i++) {
         if(arr.arre[i].horaIngreso.horas==h) {
             printf("El siguiente vehiculo ingreso en el correr de esa hora: ");
             print(arr.arre[i].matricula);
-            printf("Y lo conducia: %ld",arr.arre[i].cedulaConductor);
+            printf("\nY lo conducia: %ld",arr.arre[i].cedulaConductor);
         }
         else
           cantVehiculos++;
     }
     if(cantVehiculos==arr.tope) {
-        printf("Ningun vehiculo ingreso en el correr de esa hora.");
+        printf("Ningun vehiculo ingreso en el correr de esa hora");
     }
+    printf("\n");
 }
 
 void camionetaSegunCapCarga(totalVehiculos arr, int a) {
+  int i=0;
+  boolean hay=FALSE;
+    while(hay==FALSE && i<arr.tope) {
+        if(arr.arre[i].discriminante==camioneta && arr.arre[i].datos.datosCamioneta.capCarga>a)
+          hay=TRUE;
+      i++;
+    }
+    if(hay==FALSE)
+        printf("\nNo hay ninguna camioneta que supere esa cantidad de carga\n");
+    else {
+      i=0; // No se si esto hace falta o se iguala a cero en los parametros del for()
+        for(i=0; i<arr.tope; i++) {
+          if(arr.arre[i].discriminante==camioneta && arr.arre[i].datos.datosCamioneta.capCarga>a) {
+                printf("\nLa camioneta modelo ");
+                print(arr.arre[i].datos.datosCamioneta.modelo);
+                printf(" conducida por %ld supera esa capacidad de carga\n", arr.arre[i].cedulaConductor);
+          }
+        }
+    }
+
+  /*
     for(int i=0;i<arr.tope;i++) {
         if(arr.arre[i].datos.datosCamioneta.capCarga>a) {
             printf("La camioneta modelo ");
@@ -107,4 +130,5 @@ void camionetaSegunCapCarga(totalVehiculos arr, int a) {
             printf(" conducida por %ld supera esa capacidad de carga", arr.arre[i].cedulaConductor);
         }
     }
+  */
 }

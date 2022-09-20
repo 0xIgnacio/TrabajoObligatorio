@@ -3,7 +3,7 @@
 
 int cobro(vehiculo ve, hora h) {
   int total, aux;
-    aux=((h.horas*60)+h.minutos)-((ve.horaIngreso.horas)+ve.horaIngreso.minutos);
+    aux=((h.horas*60)+h.minutos)-((ve.horaIngreso.horas*60)+ve.horaIngreso.minutos);
     if((aux/60)%60==0)
       total=(aux/60)*100;
     else

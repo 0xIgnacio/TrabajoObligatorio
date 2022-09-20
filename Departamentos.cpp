@@ -96,64 +96,64 @@ void cargaDpto(dptoMatri &d) {
 void mostrarDpto(dptoMatri d) {
     switch(d) {
       case ARTI:
-        printf("El departamento es Artigas");
+        printf("\nEl departamento es Artigas");
         break;
       case CANE:
-        printf("El departamento es Canelones");
+        printf("\nEl departamento es Canelones");
         break;
       case CERRO:
-        printf("El departamento es Cerro Largo");
+        printf("\nEl departamento es Cerro Largo");
         break;
       case COL:
-        printf("El departamento es Colonia");
+        printf("\nEl departamento es Colonia");
         break;
       case DUR:
-        printf("El departamento es Durazno");
+        printf("\nEl departamento es Durazno");
         break;
       case FLORES:
-        printf("El departamento es Flores");
+        printf("\nEl departamento es Flores");
         break;
       case FLOR:
-        printf("El departamento es Florida");
+        printf("\nEl departamento es Florida");
         break;
       case LAVA:
-        printf("El departamento es Lavalleja");
+        printf("\nEl departamento es Lavalleja");
         break;
       case MALDO:
-        printf("El departamento es Maldonado");
+        printf("\nEl departamento es Maldonado");
         break;
       case MONTE:
-        printf("El departamento es Montevideo");
+        printf("\nEl departamento es Montevideo");
         break;
       case PAYSA:
-        printf("El departamento es Paysandu");
+        printf("\nEl departamento es Paysandu");
         break;
       case RION:
-        printf("El departamento es Rio Negro");
+        printf("\nEl departamento es Rio Negro");
         break;
       case RIVE:
-        printf("El departamento es Rivera");
+        printf("\nEl departamento es Rivera");
         break;
       case ROCHA:
-        printf("El departamento es Rocha");
+        printf("\nEl departamento es Rocha");
         break;
       case SALTO:
-        printf("El departamento es Salto");
+        printf("\nEl departamento es Salto");
         break;
       case SJ:
-        printf("El departamento es San Jose");
+        printf("\nEl departamento es San Jose");
         break;
       case SORIA:
-        printf("El departamento es Soriano");
+        printf("\nEl departamento es Soriano");
         break;
       case TACUA:
-        printf("El departamento es Tacuarembo");
+        printf("\nEl departamento es Tacuarembo");
         break;
       case TRYTR:
-        printf("El departamento es Treinta y Tres");
+        printf("\nEl departamento es Treinta y Tres");
         break;
       default:
-        printf("Error");
+        printf("\nError");
         break;
     }
 }

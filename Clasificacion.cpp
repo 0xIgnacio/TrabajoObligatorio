@@ -22,10 +22,10 @@ void cargarClas(clasificacion &a)
 void mostrarClas(clasificacion a) {
     switch(a) {
       case autos:
-          printf("El vehiculo es un auto");
+          printf("\nEl vehiculo es un auto");
         break;
       case camioneta:
-          printf("El vehiculo es una camioneta");
+          printf("\nEl vehiculo es una camioneta");
         break;
       default:
           printf("Error");

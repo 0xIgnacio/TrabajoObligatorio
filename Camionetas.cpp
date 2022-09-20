@@ -2,9 +2,9 @@
 #include "Camionetas.h"
 
 void cargaCamioneta(Camioneta &c) {
-    printf("Ingrese el modelo de la camioneta: ");
+    printf("\nIngrese el modelo de la camioneta: ");
       scan(c.modelo);
-    printf("Ingrese la capacidad de carga: ");
+    printf("\nIngrese la capacidad de carga: ");
       scanf("%d", &c.capCarga);
 }
 
@@ -17,7 +17,7 @@ int darCapCarga(Camioneta c) {
 }
 
 void mostrarCamioneta(Camioneta c) {
-    printf("El modelo es: ");
+    printf("\nEl modelo es: ");
     print(c.modelo);
-    printf("La capacidad de carga es: %d", c.capCarga);
+    printf("\nLa capacidad de carga es: %d", c.capCarga);
 }

@@ -6,6 +6,7 @@ int main() {
   int menu, menu3;
   estacionamiento est;
   est.arre.tope=0;
+  est.totalRecaudado=0;
     do {
         desplegarMenu();
           scanf("%d", &menu);
@@ -37,7 +38,7 @@ int main() {
                     switch (menu3) {
                       case 1:
                         // Total recaudado
-                          printf("El total recaudado hasta el momento es: %d", est.totalRecaudado);
+                          printf("\nEl total recaudado hasta el momento es: %d\n", est.totalRecaudado);
                         break;
                       case 2:
                         // Cantidad de autos y cantidad de camionetas
@@ -47,7 +48,7 @@ int main() {
                         // Cantidad de vehículos matriculados en un departamento determinado
                         dptoMatri d;
                           cargaDpto(d);
-                          printf("La cantidad de vehiculos es: %d", cantDpto(est.arre,d));
+                          printf("\nLa cantidad de vehiculos es: %d\n", cantDpto(est.arre,d));
                         break;
                       case 4:
                         // Listado de vehículos registrados actualmente
@@ -56,13 +57,14 @@ int main() {
                       case 5:
                         // Listado detallado de un vehículo
                         string matr;
+                          printf("\nIngrese la matricula del auto: ");
                           scan(matr);
                           mostrarSegunMatricula(est.arre, matr);
                         break;
                       case 6:
                         // Listado de vehículos que ingresaron dentro de una hora determinada
                         int h;
-                          printf("Ingrese hora: ");
+                          printf("\nIngrese hora: ");
                             scanf("%d", &h);
                           ingresadosXHora(est.arre, h);
                         break;

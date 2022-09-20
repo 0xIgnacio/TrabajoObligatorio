@@ -43,11 +43,11 @@ clasificacion darTipoVehiculo(vehiculo v)
 
 void mostrarVehiculo(vehiculo v)
 {
-    printf("La matricula es:");
+    printf("\nLa matricula es: ");
     print(v.matricula);
     mostrarDpto(v.dpto);
-    printf("La cedula del conductor es: %ld", v.cedulaConductor);
-    printf("El vehiculo ingreso a las: ");
+    printf("\nLa cedula del conductor es: %ld", v.cedulaConductor);
+    printf("\nEl vehiculo ingreso a las: ");
     mostrarHoraIngreso(v.horaIngreso);
     mostrarClas(v.discriminante);
     if(v.discriminante==autos){
