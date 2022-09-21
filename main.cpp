@@ -85,6 +85,7 @@ int main() {
               break;
           }
     } while(menu!=4); // Si se ingresa 4 salir del programa
+    cobroSalida(est);
     printf("El total recaudado fue: %d", est.totalRecaudado);
 }
 

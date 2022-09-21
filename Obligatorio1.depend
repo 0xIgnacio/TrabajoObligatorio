@@ -11,16 +11,16 @@
 	<stdio.h>
 	"Camionetas.h"
 
-1663639826 source:c:\users\eloy\desktop\trabajoobligatorio\clasificacion.cpp
+1663799192 source:c:\users\eloy\desktop\trabajoobligatorio\clasificacion.cpp
 	<stdio.h>
 	"Clasificacion.h"
 
-1663795508 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
+1663798589 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
 	<stdio.h>
 	"Menu.h"
 	"Estacionamiento.h"
 
-1663386409 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
+1663798287 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
 	<stdio.h>
 	"Hora.h"
 
@@ -61,24 +61,24 @@
 1663443611 c:\users\eloy\desktop\trabajoobligatorio\departamentos.h
 	"String.h"
 
-1663797022 source:c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.cpp
+1663798511 source:c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.cpp
 	<stdio.h>
 	"Estacionamiento.h"
 
-1663463078 c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.h
+1663798519 c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.h
 	"TotalVehiculos.h"
 
 1663546594 c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.h
 	"Vehiculo.h"
 
-1663443772 c:\users\eloy\desktop\trabajoobligatorio\vehiculo.h
+1663798726 c:\users\eloy\desktop\trabajoobligatorio\vehiculo.h
 	"Departamentos.h"
 	"Clasificacion.h"
 	"Autos.h"
 	"Camionetas.h"
 	"Hora.h"
 
-1663639826 source:c:\users\eloy\desktop\trabajoobligatorio\vehiculo.cpp
+1663799192 source:c:\users\eloy\desktop\trabajoobligatorio\vehiculo.cpp
 	<stdio.h>
 	"Vehiculo.h"
 

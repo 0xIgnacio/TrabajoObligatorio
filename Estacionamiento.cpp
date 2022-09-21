@@ -11,22 +11,18 @@ int cobro(vehiculo ve, hora h) {
     else
       total=((aux/60)*100)+60;
 
-/*
-    if(h.horas!=ve.horaIngreso.horas) {
-      if(h.minutos>=ve.horaIngreso.minutos) {
-        total=(h.horas-ve.horaIngreso.horas)*100;
-        if((h.minutos-ve.horaIngreso.minutos)!=0)
-          total+=60;
-      }
-      else
-        total=((h.horas-ve.horaIngreso.horas)-1)*100;
-        total+=60;
-    }
-    else
-      total=60
-*/
-
   return total;
+}
+
+void cobroSalida(estacionamiento &est) {
+  hora h;
+  h.horas=22;
+  h.minutos=0;
+    if(est.arre.tope>0) {
+        for(int i=0; i<est.arre.tope; i++) {
+          est.totalRecaudado+=cobro(est.arre.arre[i], h);
+        }
+    }
 }
 
 void quitarVehiculo(estacionamiento &est,string str) {

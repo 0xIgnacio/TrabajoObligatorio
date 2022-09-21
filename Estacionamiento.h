@@ -8,7 +8,8 @@ typedef struct {
     int totalRecaudado;
 }estacionamiento;
 
-void quitarVehiculo(estacionamiento &est, string str);
 int cobro(vehiculo ve, hora h);
+void cobroSalida(estacionamiento &est);
+void quitarVehiculo(estacionamiento &est, string str);
 
 #endif // ESTACIONAMIENTO_H_INCLUDED

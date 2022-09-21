@@ -7,6 +7,7 @@ void cargaVehiculo(vehiculo &v)
     printf("\nIngrese la matricula del Vehiculo: ");
     scan(v.matricula);
     cargaDpto(v.dpto);
+    //Prec: funciona solo para long int
     printf("\nIngrese la Cedula del Conductor: ");
     scanf("%ld",&v.cedulaConductor);
     printf("\nIngrese hora de Ingreso: ");
