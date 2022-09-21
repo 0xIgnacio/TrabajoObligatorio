@@ -90,7 +90,7 @@ void ingresadosXHora(totalVehiculos arr,int h) {
         if(arr.arre[i].horaIngreso.horas==h) {
             printf("El siguiente vehiculo ingreso en el correr de esa hora: ");
             print(arr.arre[i].matricula);
-            printf("\nY lo conducia: %ld",arr.arre[i].cedulaConductor);
+            printf(" y lo conduce: %ld\n",arr.arre[i].cedulaConductor);
         }
         else
           cantVehiculos++;

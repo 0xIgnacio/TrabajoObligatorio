@@ -76,8 +76,6 @@ int main() {
                           camionetaSegunCapCarga(est.arre, capC);
                         break;
                       default:
-                        // En caso de error
-                          printf("Error");
                         break;
                     }
                 } while(menu3!=8); // Si se ingresa 8 salir al menu principal
@@ -87,7 +85,7 @@ int main() {
               break;
           }
     } while(menu!=4); // Si se ingresa 4 salir del programa
-
+    printf("El total recaudado fue: %d", est.totalRecaudado);
 }
 
 
