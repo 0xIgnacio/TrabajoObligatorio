@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1663889890 source:c:\users\eloy\desktop\obligatorio\boolean.cpp
+	<stdio.h>
+	"boolean.h"
+
+1663889890 c:\users\eloy\desktop\obligatorio\boolean.h
+
+1663899846 source:c:\users\eloy\desktop\obligatorio\camionetas.cpp
+	<stdio.h>
+	"camionetas.h"
+
+1663899846 c:\users\eloy\desktop\obligatorio\camionetas.h
+	"string.h"
+
+1663889890 c:\users\eloy\desktop\obligatorio\string.h
+	"boolean.h"
+
+1663890723 source:c:\users\eloy\desktop\obligatorio\clasificacion.cpp
+	<stdio.h>
+	"clasificacion.h"
+
+1663890723 c:\users\eloy\desktop\obligatorio\clasificacion.h
+
+1663889890 source:c:\users\eloy\desktop\obligatorio\departamentos.cpp
+	<stdio.h>
+	"departamentos.h"
+
+1663889890 c:\users\eloy\desktop\obligatorio\departamentos.h
+	"string.h"
+
+1663896448 source:c:\users\eloy\desktop\obligatorio\estacionamiento.cpp
+	<stdio.h>
+	"estacionamiento.h"
+
+1663896448 c:\users\eloy\desktop\obligatorio\estacionamiento.h
+	"totalVehiculos.h"
+
+1663897514 c:\users\eloy\desktop\obligatorio\totalvehiculos.h
+	"vehiculo.h"
+
+1663890723 c:\users\eloy\desktop\obligatorio\vehiculo.h
+	"hora.h"
+	"autos.h"
+	"camionetas.h"
+	"departamentos.h"
+	"clasificacion.h"
+
+1663896448 c:\users\eloy\desktop\obligatorio\hora.h
+	"boolean.h"
+
+1663890723 c:\users\eloy\desktop\obligatorio\autos.h
+	"string.h"
+
+1663896448 source:c:\users\eloy\desktop\obligatorio\hora.cpp
+	<stdio.h>
+	"hora.h"
+
+1663897514 source:c:\users\eloy\desktop\obligatorio\main.cpp
+	<stdio.h>
+	"estacionamiento.h"
+	"menu.h"
+
+1663897514 c:\users\eloy\desktop\obligatorio\menu.h
+
+1663897514 source:c:\users\eloy\desktop\obligatorio\menu.cpp
+	<stdio.h>
+	"menu.h"
+
+1663888493 source:c:\users\eloy\desktop\obligatorio\string.cpp
+	<stdio.h>
+	"string.h"
+
+1663897514 source:c:\users\eloy\desktop\obligatorio\totalvehiculos.cpp
+	<stdio.h>
+	"totalVehiculos.h"
+
+1663890723 source:c:\users\eloy\desktop\obligatorio\vehiculo.cpp
+	<stdio.h>
+	"vehiculo.h"
+
+1663899900 source:c:\users\eloy\desktop\obligatorio\autos.cpp
+	<stdio.h>
+	"autos.h"
+
