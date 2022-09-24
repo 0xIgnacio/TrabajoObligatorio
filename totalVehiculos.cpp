@@ -110,7 +110,7 @@ void mostrarSegunMatricula(totalVehiculos arr, string str) {
     }while(encontre==FALSE && i<arr.tope);
 
     if(encontre==FALSE) {
-        printf("Esa matricula no se encuentra en el Estacionamiento.");
+        printf("\nEsa matricula no se encuentra en el Estacionamiento.");
     }
 }
 

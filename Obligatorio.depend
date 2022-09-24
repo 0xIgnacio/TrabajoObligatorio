@@ -139,11 +139,11 @@
 1663896448 c:\users\eloy\desktop\trabajoobligatorio\hora.h
 	"boolean.h"
 
-1663896448 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
+1663986385 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
 	<stdio.h>
 	"hora.h"
 
-1663978575 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
+1663986247 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	"estacionamiento.h"
@@ -159,7 +159,7 @@
 	<stdio.h>
 	"string.h"
 
-1663978335 source:c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.cpp
+1663985591 source:c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.cpp
 	<stdio.h>
 	"totalVehiculos.h"
 

@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include "hora.h"
 
-void cargaHora(hora &h) {
-    printf("(HORA MINUTOS): ");
-    scanf("%d %d", &h.horas, &h.minutos);
-}
 
 hora darStructHora(hora h) {
   return h;
@@ -26,6 +22,23 @@ boolean horaValida(hora h) {
     }
 
   return valida;
+}
+
+void cargaHora(hora &h) {
+  int i=0;
+  boolean valida=FALSE;
+    printf("(HORA MINUTOS): ");
+      scanf("%d %d", &h.horas, &h.minutos);
+    if(horaValida(h)==FALSE) {
+      while(valida==FALSE) {
+          printf("\nHora invalida, ingrese denuevo (HORA MINUTOS): ");
+            scanf("%d %d", &h.horas, &h.minutos);
+            if(horaValida(h))
+              valida=TRUE;
+            else
+              i++;
+      }
+    }
 }
 
 boolean horaValidaSalida(hora entrada, hora salida) {

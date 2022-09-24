@@ -24,7 +24,7 @@ int main() {
           case 1:
             // Registrar ingreso de un vehículo
               if(hayLugar(est.arre)){
-                insertarVehiculo(est.arre);
+                    insertarVehiculo(est.arre);
               }
               else
                 printf("No hay lugar");
