@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "estacionamiento.h"
 
+void aumentarRec(estacionamiento &est, int total) {
+  est.totalRecaudado+=total;
+}
+
 int cobro(vehiculo v, hora h) {
   hora ho=darStructHora(v.horaIngreso);
   int total, aux;
@@ -29,21 +33,11 @@ void cobroSalida(estacionamiento &est) {
     }
 }
 
+vehiculo obtenerVehiculo(estacionamiento est, string str) {
+    return obtenerVehiculo(est.arre,  str);
+}
+
 void quitarVehiculo(estacionamiento &est,string str) {
-  int i=0;
-  vehiculo v=obtenerVehiculo(est.arre, str);
-  hora ho;
-  boolean valida=FALSE;
-    while(valida==FALSE){
-        printf("Ingrese hora de salida");
-        cargaHora(ho);
-        if(horaValidaSalida(v.horaIngreso, ho))
-          valida=TRUE;
-        else
-          printf("Hora invalida. ");
-    }
-    printf("Se le cobro %d", cobro(v, ho));
-  est.totalRecaudado+=cobro(v, ho);
     borrarVehiculo(est.arre, str);
 }
 

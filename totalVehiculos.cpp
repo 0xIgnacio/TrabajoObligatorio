@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "totalVehiculos.h"
 
+int darTope(totalVehiculos tot) {
+  return tot.tope;
+}
+
 totalVehiculos darTotalV(totalVehiculos t) {
   return t;
 }

@@ -9,6 +9,7 @@ typedef struct {
     int tope;
 } totalVehiculos;
 
+int darTope(totalVehiculos tot);
 totalVehiculos darTotalV(totalVehiculos t);
 boolean hayLugar(totalVehiculos arre);
 boolean existeSegunMatricula(totalVehiculos arre, string str);
