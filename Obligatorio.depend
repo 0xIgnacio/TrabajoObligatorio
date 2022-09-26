@@ -116,34 +116,34 @@
 	<stdio.h>
 	"departamentos.h"
 
-1663889890 c:\users\eloy\desktop\trabajoobligatorio\departamentos.h
+1664226499 c:\users\eloy\desktop\trabajoobligatorio\departamentos.h
 	"string.h"
 
 1663974183 source:c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.cpp
 	<stdio.h>
 	"estacionamiento.h"
 
-1663974183 c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.h
+1664227600 c:\users\eloy\desktop\trabajoobligatorio\estacionamiento.h
 	"totalVehiculos.h"
 
-1663976033 c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.h
+1664227600 c:\users\eloy\desktop\trabajoobligatorio\totalvehiculos.h
 	"vehiculo.h"
 
-1663890723 c:\users\eloy\desktop\trabajoobligatorio\vehiculo.h
+1664226749 c:\users\eloy\desktop\trabajoobligatorio\vehiculo.h
 	"hora.h"
 	"autos.h"
 	"camionetas.h"
 	"departamentos.h"
 	"clasificacion.h"
 
-1663896448 c:\users\eloy\desktop\trabajoobligatorio\hora.h
+1664226493 c:\users\eloy\desktop\trabajoobligatorio\hora.h
 	"boolean.h"
 
 1663986385 source:c:\users\eloy\desktop\trabajoobligatorio\hora.cpp
 	<stdio.h>
 	"hora.h"
 
-1663986247 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
+1664226267 source:c:\users\eloy\desktop\trabajoobligatorio\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	"estacionamiento.h"
@@ -151,7 +151,7 @@
 
 1663897514 c:\users\eloy\desktop\trabajoobligatorio\menu.h
 
-1663975649 source:c:\users\eloy\desktop\trabajoobligatorio\menu.cpp
+1664226109 source:c:\users\eloy\desktop\trabajoobligatorio\menu.cpp
 	<stdio.h>
 	"menu.h"
 

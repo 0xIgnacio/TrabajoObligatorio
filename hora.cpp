@@ -27,7 +27,7 @@ boolean horaValida(hora h) {
 void cargaHora(hora &h) {
   int i=0;
   boolean valida=FALSE;
-    printf("(HORA MINUTOS): ");
+    printf("(HORA(espacio)MINUTOS): ");
       scanf("%d %d", &h.horas, &h.minutos);
     if(horaValida(h)==FALSE) {
       while(valida==FALSE) {

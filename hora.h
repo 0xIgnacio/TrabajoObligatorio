@@ -10,7 +10,6 @@ typedef struct {
 
 // Carga
 void cargaHora(hora &h);
-//void cargaMinutos();
 
 // Selectoras
 hora darStructHora(hora h);
